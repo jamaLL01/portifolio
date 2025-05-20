@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F; /* Cor principal */
+    --cor-secundaria: #284260; /* Cor secundária */
+    --cor-destaque: #C92BFC; /* Cor de destaque */
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #F8F9FA; /* Cor de fundo suave */
+    color: var(--cor-principal);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 30px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+.card-text {
+    color: var(--cor-principal);
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.badge.bg-secondary {
+    background-color: var(--cor-secundaria);
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
+
+footer .bi-github {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
