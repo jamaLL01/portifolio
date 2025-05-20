@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Kauan</title>
+</head>
+
+<body>
+    <header class="container text-center py-5">
+        <img src="img/avatar-perfil.png" alt="Avatar de Kauan" class="rounded-circle" width="150" height="150">
+        <p class="lead mt-3">Eu sou Kauan</p>
+        <h1>Tenho 17 anos e gosto de aprender!</h1>
+        <p>Trabalho em uma lanchonete e estudo na Escola João Rodrigues Fernandes. Uma das minhas matérias favoritas é Educação Física, mas também estou aprendendo programação e pensamento computacional com HTML, CSS, JavaScript e Scratch.</p>
+        <h2 class="mt-4">Minhas habilidades</h2>
+        <div class="d-flex justify-content-center flex-wrap gap-2">
+            <span class="badge bg-secondary">HTML</span>
+            <span class="badge bg-secondary">CSS</span>
+            <span class="badge bg-secondary">JavaScript</span>
+            <span class="badge bg-secondary">Scratch</span>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2 class="mb-4">Meus projetos</h2>
+        <div class="row g-4">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto Minha Biblioteca">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Uma página com meus livros favoritos, com imagens, autores e links para comprar. Tudo feito com HTML e CSS.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto sobre Inteligência Artificial">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Inteligência Artificial</h5>
+                        <p class="card-text">Um jogo interativo onde você faz escolhas que mudam o futuro da tecnologia e da sociedade.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de astronomia com Scratch">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo com Scratch</h5>
+                        <p class="card-text">Projeto em Scratch sobre astronomia, onde você pode aprender sobre constelações, eclipses e muito mais.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modais dos projetos -->
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Uma página feita em HTML e CSS para mostrar meus livros favoritos. Cada livro tem sua imagem, autor e link para comprar. O site é bonito e funciona bem em celulares também.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Imagem do projeto Minha Biblioteca">
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Ver projeto ao vivo</a>
+                    <a href="#">Ver código no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Decidindo o Futuro: IA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um jogo onde você faz escolhas e aprende como a Inteligência Artificial pode afetar o mundo. Feito com HTML, CSS e JavaScript.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Imagem do projeto de IA">
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Ver projeto ao vivo</a>
+                    <a href="#">Ver código no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Explorando o Universo com Scratch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um projeto feito no Scratch para ensinar astronomia de forma divertida. Você pode clicar e interagir com as constelações e aprender jogando.</p>
+                    <img src="img/projeto-3.png" class="img-fluid w-100" alt="Imagem do projeto Scratch">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/seu-usuario">Meu GitHub</a>
+        </div>
+        <p class="my-5 text-center">© 2024 - Desenvolvido por Kauan</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
